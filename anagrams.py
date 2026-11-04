@@ -22,7 +22,7 @@ else:
         else:
             counts[i] = -1
 
-    # Check whether all frequencies are zero
+
     if all(value == 0 for value in counts.values()):
         print("These strings are anagrams.")
     else:
